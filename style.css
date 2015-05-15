@@ -5,7 +5,7 @@ body {
 margin: 0;
 background-image:url(images/backgrounds/MockUp2.png);  /* This adds a background image to the template.  If you only want to use a solid color, remove the comment-out tags from around the attribute below and adjust the color to whatever you like.  Then place comment-out tags around this one so the background doesn't show.  Feel free to browse the backgrounds folder located inside the images folder to test more image backgrounds.  For example, replace purpleDesign.jpg with blueCheckers.jpg and see what you get! */
 background-repeat: repeat;	
- background-color: #fff; */    /* This background attribute has been commented out because there is already a background image.  If you want to use a solid color for the background instead, change the hex color code to #672d67 or whatever you like and remove the comment-out tags from around the attribute. Go to http://www.2createawebsite.com/build/hex-colors.html to generate your own hex colors.  */
+ background-color: #FF5050; */    /* This background attribute has been commented out because there is already a background image.  If you want to use a solid color for the background instead, change the hex color code to #672d67 or whatever you like and remove the comment-out tags from around the attribute. Go to http://www.2createawebsite.com/build/hex-colors.html to generate your own hex colors.  */
 	
 }
 
@@ -30,7 +30,7 @@ background-repeat: repeat-x;
 
 #header #tagline {  /* This is the text below the logo.  Edit the index.html page to edit text. Use attributes below to re-position. */ 
 
-	font-family: Arial, Verdana, Geneva, sans-serif;
+	font-family: Verdana; 
 	font-size: 22px; 
 	color: #ccc;
 	position: absolute; top: 175px; left: 67px; 
@@ -46,9 +46,9 @@ background-repeat: repeat-x;
 
 #header #title {  /* Use this to style your title text if you don't have a logo.  Don't forget to un-comment out the code in the index.html file to make this visible in your header. */
 
-  font-family: Arial, Verdana, Geneva, sans-serif;
+  font-family: arial;
 	font-size: 35px; 
-	color: #000;
+	color: #990000;
 	font-weight: bold;
 	position: absolute; top: 55px; left: 67px; 
 	
@@ -310,10 +310,10 @@ background-color: #fff;  /* The background color will only travel down to the en
 
 
 h1 { /* This styles the H1 tag. */
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: cursive,
 	font-size: 22px;
 	font-weight: bold;
-	color: #672d67;
+	color: #990000;
 	line-height: 24px;
 	margin-top: 4px;
 	margin-left: 0px;
@@ -375,7 +375,7 @@ img {  /* Automatically adds padding/spacing around every image.  Feel free to a
 
 .box1 {  /* This controls the look of the box */
 	background:#faf7d8;
-	color: #000;
+	color: #990000;
 	border:1px solid #672d67;
 	width: 250px;
 	height: 120px;
@@ -390,7 +390,7 @@ img {  /* Automatically adds padding/spacing around every image.  Feel free to a
 
 .box2 {  /* Another box you can use if you wish. */
 	background:#faf7d8;
-	color: #000;
+	color: #990000;
 	border:1px solid #672d67;
 	width: 400px;
 	height: 210px;
